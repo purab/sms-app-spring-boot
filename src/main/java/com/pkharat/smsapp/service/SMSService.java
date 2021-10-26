@@ -11,10 +11,11 @@ import com.twilio.type.PhoneNumber;
 @Service
 public class SMSService {
     //private final String ACCOUNT_SID ="enter your SID Number from Twilio";
-    private final String ACCOUNT_SID ="AC2a87a06645cee4604a45f7a5fc386a7c";
+    //get following from - https://console.twilio.com/?frameUrl=/console
+    private final String ACCOUNT_SID ="";
 
     //private final String AUTH_TOKEN = "enter your Auth token from Twilio Account";
-    private final String AUTH_TOKEN = "4404ee29b0006ede5d378d3c2a1fc77b";
+    private final String AUTH_TOKEN = "";
 
     //https://www.twilio.com/docs/api/errors/21606
     private final String FROM_NUMBER = "+15005550001";
